@@ -8,7 +8,7 @@ public class SearchInsertPosition {
       return 0;
     }
     if (target > nums[arrayEnd - 1]) {
-      return arrayEnd + 1;
+      return arrayEnd;
     }
     while (center != arrayBeg) {
       if (target > median) {
